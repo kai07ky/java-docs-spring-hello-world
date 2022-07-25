@@ -15,6 +15,6 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		return "ユニインフォーメーション株式会社";
+		return "index.html";
 	}
 }
