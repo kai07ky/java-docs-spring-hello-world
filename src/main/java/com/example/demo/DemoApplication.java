@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @SpringBootApplication
-@RestController
+@Controller
 public class DemoApplication {
 
 	public static void main(String[] args) {
@@ -17,6 +17,6 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		return "Hello World!2";
+		return "index";
 	}
 }
