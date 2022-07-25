@@ -17,6 +17,6 @@ public class DemoApplication {
 
 	@RequestMapping(path = "/")
 	String sayHello() {
-		return "index.html";
+		return "index";
 	}
 }
